@@ -1,0 +1,48 @@
+/* Custom styles for the page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  padding: 1.5rem;
+}
+
+#poster {
+  max-width: 100%; /* Make the image responsive */
+  height: auto; /* Keep aspect ratio */
+  display: block;
+  margin: 0 auto; /* Center the image */
+}
+
+#movieDetails {
+  text-align: center;
+}
+
+button {
+  margin-top: 20px;
+}
+
+#showingMovie {
+  list-style-type: none;
+  padding: 0;
+}
+
+#showingMovie li {
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+#showingMovie li:hover {
+  background-color: #f8f9fa;
+}
+
+#movieDetails {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
